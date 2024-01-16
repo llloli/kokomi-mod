@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "kokomi",
+	"version": "${version}",
+	"name": "kokomi",
+	"description": "本公主亲手写的第一个mod！",
+	"authors": [
+		"奈奈白花"
+	],
+	"contact": {
+		"homepage": "byiyi.fun",
+		"sources": "https://github.com/llloli/kokomi-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/kokomi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kokomi.Kokomi"
+		]
+	},
+	"mixins": [
+		"kokomi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
