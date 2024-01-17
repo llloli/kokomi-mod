@@ -1,6 +1,8 @@
 package com.kokomi;
 
-import com.kokomi.item.ModItem;
+import com.kokomi.block.ModBlocks;
+import com.kokomi.item.ModItemGroup;
+import com.kokomi.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,10 +14,12 @@ public class Kokomi implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItem.registerItem();
-
-        LOGGER.info("-----------------------\n" +
-                "mod is run~~\n" +
-                "-----------------------");
+        //注册物品组
+        ModItemGroup.registerModItemGroup();
+        //注册物品
+        ModItems.registerModItem();
+        //注册方块
+        ModBlocks.registerModBlocks();
+        LOGGER.info("Mod is loading...");
     }
 }

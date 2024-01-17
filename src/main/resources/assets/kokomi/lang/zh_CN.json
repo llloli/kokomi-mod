@@ -1,3 +1,9 @@
 {
-  "item.kokomi.nana": "娜娜"
+  "itemgroup.kokomi.nanagroup": "小公主专用喵",
+
+  "item.kokomi.nana": "娜娜",
+  "item.kokomi.fu_xuan_stone": "符玄石",
+
+  "block.kokomi.fu_xuan_block": "符玄块",
+  "block.kokomi.fu_xuan_ore": "符玄矿"
 }

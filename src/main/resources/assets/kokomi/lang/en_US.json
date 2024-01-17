@@ -1,3 +1,9 @@
 {
-  "item.kokomi.nana": "nana"
+  "itemgroup.kokomi.nanagroup": "Mod Item",
+
+  "item.kokomi.nana": "nana",
+  "item.kokomi.fu_xuan_stone": "Fu Xuan Stone",
+
+  "block.kokomi.fu_xuan_block": "Fu Xuan Block",
+  "block.kokomi.fu_xuan_ore": "Fu Xuan Ore"
 }
