@@ -18,6 +18,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item FU_XUAN_STONE = registerItem("fu_xuan_stone",
             new Item(new FabricItemSettings()));
+    public static final Item FU_XUAN_SWORD = registerItem("fu_xuan_sword",
+            new Item(new FabricItemSettings()));
 
     public static Item registerItem(String itemName, Item item) {
         //注册到fabric注册表中

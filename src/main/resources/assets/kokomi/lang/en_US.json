@@ -3,7 +3,10 @@
 
   "item.kokomi.nana": "nana",
   "item.kokomi.fu_xuan_stone": "Fu Xuan Stone",
+  "item.kokomi.fu_xuan_sword": "Fu Xuan Sword",
 
   "block.kokomi.fu_xuan_block": "Fu Xuan Block",
-  "block.kokomi.fu_xuan_ore": "Fu Xuan Ore"
+  "block.kokomi.fu_xuan_ore": "Fu Xuan Ore",
+  "block.kokomi.deepslate_fu_xuan_ore": "Deepslate Fu Xuan Ore",
+  "block.kokomi.end_fu_xuan_ore": "End Fu Xuan Ore"
 }

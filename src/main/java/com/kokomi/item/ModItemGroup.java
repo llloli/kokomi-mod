@@ -23,10 +23,13 @@ public class ModItemGroup {
                         //添加到NanaGroup中
                         entries.add(ModItems.NANA);
                         entries.add(ModItems.FU_XUAN_STONE);
+                        entries.add(ModItems.FU_XUAN_SWORD);
 
 
                         entries.add(ModBlocks.FU_XUAN_BLOCK);
                         entries.add(ModBlocks.FU_XUAN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_FU_XUAN_ORE);
+                        entries.add(ModBlocks.END_FU_XUAN_ORE);
 
                     }).build());
 
