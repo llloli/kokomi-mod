@@ -1,6 +1,7 @@
 package com.kokomi.item;
 
 import com.kokomi.Kokomi;
+import com.kokomi.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -14,12 +15,12 @@ public class ModItems {
         Kokomi.LOGGER.debug(MOD_ID + "registering ModItems...");
     }
 
-    public static final Item NANA = registerItem("nana",
-            new Item(new FabricItemSettings()));
-    public static final Item FU_XUAN_STONE = registerItem("fu_xuan_stone",
-            new Item(new FabricItemSettings()));
-    public static final Item FU_XUAN_SWORD = registerItem("fu_xuan_sword",
-            new Item(new FabricItemSettings()));
+    public static final Item NANA = registerItem("nana", new Item(new FabricItemSettings()));
+    public static final Item FU_XUAN_STONE = registerItem("fu_xuan_stone", new Item(new FabricItemSettings()));
+    public static final Item FU_XUAN_SWORD = registerItem("fu_xuan_sword", new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+
 
     public static Item registerItem(String itemName, Item item) {
         //注册到fabric注册表中

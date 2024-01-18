@@ -24,6 +24,7 @@ public class ModItemGroup {
                         entries.add(ModItems.NANA);
                         entries.add(ModItems.FU_XUAN_STONE);
                         entries.add(ModItems.FU_XUAN_SWORD);
+                        entries.add(ModItems.METAL_DETECTOR);
 
 
                         entries.add(ModBlocks.FU_XUAN_BLOCK);
