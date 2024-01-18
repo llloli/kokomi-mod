@@ -31,6 +31,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.FU_XUAN_ORE);
                         entries.add(ModBlocks.DEEPSLATE_FU_XUAN_ORE);
                         entries.add(ModBlocks.END_FU_XUAN_ORE);
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                     }).build());
 

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kokomi:block/sound_block"
+    }
+  }
+}

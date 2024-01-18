@@ -14,6 +14,7 @@ public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Settings settings) {
         super(settings);
     }
+
     //矿物探测器
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
@@ -22,7 +23,7 @@ public class MetalDetectorItem extends Item {
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
 
-            for (int i = 0; i <= positionClicked.getY() + 64; i++) {
+            for (int i = 0; i <= positionClicked.getY() + 64; i++) {     //64格范围
                 BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
                 if (isValuableBlock(state)) {
@@ -38,7 +39,7 @@ public class MetalDetectorItem extends Item {
             }
         }
 
-        context.getStack().damage(1, context.getPlayer(),
+        context.getStack().damage(1, context.getPlayer(),   //每次使用扣除一点耐久
                 playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
 
         return ActionResult.SUCCESS;
@@ -52,6 +53,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE) || state.isOf(Blocks.DEEPSLATE_DIAMOND_ORE);
     }
 }

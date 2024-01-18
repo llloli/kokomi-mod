@@ -1,6 +1,7 @@
 package com.kokomi.block;
 
 import com.kokomi.Kokomi;
+import com.kokomi.item.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -26,7 +27,9 @@ public class ModBlocks {
     public static final Block END_FU_XUAN_ORE = registerBlock("end_fu_xuan_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)
                     .strength(4F), UniformIntProvider.create(5, 7)));
-
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
+                    .strength(1F)));
 
     private static Block registerBlock(String blockName, Block block) {
         registerBlockItem(blockName, block);
