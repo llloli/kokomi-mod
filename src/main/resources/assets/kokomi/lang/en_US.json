@@ -5,6 +5,8 @@
   "item.kokomi.fu_xuan_stone": "Fu Xuan Stone",
   "item.kokomi.fu_xuan_sword": "Fu Xuan Sword",
   "item.kokomi.metal_detector": "Metal Detector",
+  "item.kokomi.tomato": "Tomato",
+  "item.kokomi.coal": "Coal",
 
   "block.kokomi.fu_xuan_block": "Fu Xuan Block",
   "block.kokomi.fu_xuan_ore": "Fu Xuan Ore",
@@ -15,5 +17,7 @@
 
   "item.kokomi.metal_detector.message.null": "No Valuables Found!",
   "item.kokomi.metal_detector.message.found": "Found",
-  "block.kokomi.metal_detector.tooltip": "yyy"
+  "item.kokomi.metal_detector.tooltip1": "A mineral detector that can detect Some minerals",
+  "item.kokomi.metal_detector.tooltip2": "such as fu xuan ore and diamond ore",
+  "item.kokomi.fu_xuan_stone.tooltip": "It has absolutely nothing to do with Lord Tai Bu!"
 }

@@ -4,7 +4,9 @@
   "item.kokomi.nana": "娜娜",
   "item.kokomi.fu_xuan_stone": "符玄石",
   "item.kokomi.fu_xuan_sword": "符玄剑",
-  "item.kokomi.metal_detector": "金属探测器",
+  "item.kokomi.metal_detector": "矿物探测器",
+  "item.kokomi.tomato": "番茄",
+  "item.kokomi.coal": "煤",
 
   "block.kokomi.fu_xuan_block": "符玄块",
   "block.kokomi.fu_xuan_ore": "符玄矿",
@@ -14,5 +16,8 @@
 
 
   "item.kokomi.metal_detector.message.null": "该位置不存在！",
-  "item.kokomi.metal_detector.message.found": "已找到："
+  "item.kokomi.metal_detector.message.found": "已找到:",
+  "item.kokomi.metal_detector.tooltip1": "一个矿物探测器，可以探测到点击方块下方64格内矿物",
+  "item.kokomi.metal_detector.tooltip2": "例如钻石矿和符玄矿",
+  "item.kokomi.fu_xuan_stone.tooltip": "绝对跟太卜大人没有一分关系！"
 }
