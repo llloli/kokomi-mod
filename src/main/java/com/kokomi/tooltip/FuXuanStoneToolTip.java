@@ -1,4 +1,4 @@
-package com.kokomi.item.tooltip;
+package com.kokomi.tooltip;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;

@@ -2,7 +2,7 @@ package com.kokomi.item;
 
 import com.kokomi.Kokomi;
 import com.kokomi.item.custom.MetalDetectorItem;
-import com.kokomi.item.tooltip.FuXuanStoneToolTip;
+import com.kokomi.tooltip.FuXuanStoneToolTip;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
