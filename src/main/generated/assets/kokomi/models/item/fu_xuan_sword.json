@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "kokomi:item/fu_xuan_sword"
+  }
+}

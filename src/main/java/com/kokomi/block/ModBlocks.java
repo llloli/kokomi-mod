@@ -17,7 +17,8 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block FU_XUAN_BLOCK = registerBlock("fu_xuan_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(4F)));
     public static final Block FU_XUAN_ORE = registerBlock("fu_xuan_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE)
                     .strength(3F), UniformIntProvider.create(3, 7)));

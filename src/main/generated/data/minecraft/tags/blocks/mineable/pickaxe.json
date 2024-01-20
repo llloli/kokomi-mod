@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kokomi:fu_xuan_block",
+    "kokomi:fu_xuan_ore",
+    "kokomi:end_fu_xuan_ore",
+    "kokomi:deepslate_fu_xuan_ore"
+  ]
+}

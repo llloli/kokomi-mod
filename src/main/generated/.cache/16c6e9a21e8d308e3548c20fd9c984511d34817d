@@ -1,0 +1,5 @@
+// 1.20.1	2024-01-20T15:56:50.0365476	kokomi/Tags for minecraft:block
+00bffae670b860367299399a062c9e0bb4a10260 data\minecraft\tags\blocks\mineable\pickaxe.json
+5e28caffc6d27b8be3b59773015abde2d88350f8 data\kokomi\tags\blocks\metal_detector_blocks.json
+a0c4917164de8ec76264c4c3650da818db612f31 data\minecraft\tags\blocks\wool.json
+b6e3f27cddd0811eeca7280bf9dae87bbffc4b36 data\minecraft\tags\blocks\needs_diamond_tool.json

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kokomi:block/deepslate_fu_xuan_ore"
+  }
+}

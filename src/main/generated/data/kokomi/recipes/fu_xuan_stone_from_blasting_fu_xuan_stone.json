@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "fu_xuan_stone",
+  "ingredient": {
+    "item": "kokomi:fu_xuan_stone"
+  },
+  "result": "kokomi:fu_xuan_stone"
+}

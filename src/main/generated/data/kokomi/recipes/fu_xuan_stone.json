@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "kokomi:fu_xuan_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "kokomi:fu_xuan_stone"
+  }
+}

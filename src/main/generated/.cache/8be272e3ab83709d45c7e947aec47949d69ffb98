@@ -1,0 +1,22 @@
+// 1.20.1	2024-01-20T15:56:50.0400499	kokomi/Model Definitions
+5a002d0f8547b65b7d8f1fcc2911d29d8dff396c assets\kokomi\models\block\sound_block.json
+d9eaa77f8b74e1bf68b5cfc006c5f5fedbcded90 assets\kokomi\blockstates\sound_block.json
+43a89afcc6a8e95128377a17d249a66f50f523b6 assets\kokomi\models\item\tomato.json
+e0d89123cbb7b6662f30dc99c7da73ead4f3e7f6 assets\kokomi\blockstates\fu_xuan_block.json
+8a6071e70323929a8581c8ac73131518c173c701 assets\kokomi\models\item\fu_xuan_stone.json
+fea8f2197006bf7264ca1829c5006f1cdab4f05f assets\kokomi\models\block\fu_xuan_ore.json
+a01a383868d39c1c4393029ab9c873fcf0d5fdb7 assets\kokomi\models\item\fu_xuan_ore.json
+61d1db6af9ee1d3ad7bd1348837b38f543e2c2a2 assets\kokomi\models\item\end_fu_xuan_ore.json
+8f53b2c4abec9562ea45ff8d68ba1377e8611959 assets\kokomi\models\item\fu_xuan_sword.json
+17e838434a79663006c9c8ef9bf6d5554310275d assets\kokomi\models\block\deepslate_fu_xuan_ore.json
+3bb4d5492ccb6c7fd3d8f241d0a4522bedf2d375 assets\kokomi\blockstates\deepslate_fu_xuan_ore.json
+d943ff19f0c920dca64aa765c320963d286b84ef assets\kokomi\models\item\nana.json
+1749df0ba0d9ed7fcddea8f04941c56685f8a090 assets\kokomi\models\item\sound_block.json
+60f9e38aa686daf6e1dfa6f2d6378163283c380b assets\kokomi\models\item\metal_detector.json
+9604b3c55e962f095b0496394d57cb11c7b2f94e assets\kokomi\models\item\deepslate_fu_xuan_ore.json
+0896c85151becbfb9fbde1ab2d0b705fa67ee72e assets\kokomi\models\item\coal.json
+004db5d8e6335be9f88805f56924c21116e8de21 assets\kokomi\models\block\end_fu_xuan_ore.json
+cbc1e095faf79a5d68b6f8804eea44f9d68c1b50 assets\kokomi\blockstates\fu_xuan_ore.json
+953ac5f9b6960ad680de09facacdb26e0b1c5294 assets\kokomi\blockstates\end_fu_xuan_ore.json
+4769ac9e996fc328b950465a4f471b97f8bbf215 assets\kokomi\models\block\fu_xuan_block.json
+3f0947b7ef1a11004bd3d21725c687c3076da331 assets\kokomi\models\item\fu_xuan_block.json

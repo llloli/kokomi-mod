@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "fu_xuan_stone",
+  "ingredient": {
+    "item": "kokomi:end_fu_xuan_ore"
+  },
+  "result": "kokomi:fu_xuan_stone"
+}

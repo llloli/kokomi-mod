@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "kokomi:fu_xuan_stone"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "result": {
+    "item": "kokomi:metal_detector"
+  },
+  "show_notification": true
+}

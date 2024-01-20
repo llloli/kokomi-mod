@@ -1,0 +1,6 @@
+// 1.20.1	2024-01-20T15:56:50.0380514	kokomi/Block Loot Tables
+f02dce512edc8c608920370236ff60c52499a31b data\kokomi\loot_tables\blocks\fu_xuan_ore.json
+c2a72c5c30a76acb199652109fadb06ad23463d3 data\kokomi\loot_tables\blocks\end_fu_xuan_ore.json
+977cae68da7cb562cc9c162224fefd5604a86dab data\kokomi\loot_tables\blocks\sound_block.json
+8d72a078ed6e228030d074f0390eec0a6f815d77 data\kokomi\loot_tables\blocks\fu_xuan_block.json
+87ce800e8c31f37f3c95851d81d4bb5f1fe98781 data\kokomi\loot_tables\blocks\deepslate_fu_xuan_ore.json

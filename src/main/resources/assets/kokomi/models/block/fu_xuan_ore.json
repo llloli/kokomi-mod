@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kokomi:block/fu_xuan_ore"
-  }
-}
