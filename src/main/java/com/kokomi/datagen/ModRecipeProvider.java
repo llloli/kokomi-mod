@@ -6,10 +6,10 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -55,6 +55,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
 
         createDoorRecipe(ModBlocks.FU_XUAN_DOOR, Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        createStairsRecipe(ModBlocks.FU_XUAN_STAIRS,Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.FU_XUAN_SLAB,Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.FU_XUAN_BUTTON,1)
+                .input(ModItems.FU_XUAN_STONE)
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.FU_XUAN_PRESSURE_PLATE,Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        createFenceRecipe(ModBlocks.FU_XUAN_FENCE,Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        createFenceGateRecipe(ModBlocks.FU_XUAN_FENCE_GATE,Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.FU_XUAN_WALL, 6)
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.FU_XUAN_STONE)
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.FU_XUAN_TRAPDOOR,Ingredient.ofItems(ModItems.FU_XUAN_STONE))
                 .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
                 .offerTo(exporter);
     }

@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-20T20:12:55.7266429	kokomi/Model Definitions
+// 1.20.1	2024-01-20T21:36:38.4922957	kokomi/Model Definitions
 84a0e7ce4b7705a6368cc03807f3b5ad40aee5fa assets\kokomi\models\item\fu_xuan_slab.json
 4328e1313129e5723a5b6bda080bd41a1045c229 assets\kokomi\models\block\fu_xuan_wall_side_tall.json
 e0d89123cbb7b6662f30dc99c7da73ead4f3e7f6 assets\kokomi\blockstates\fu_xuan_block.json
@@ -34,8 +34,8 @@ db9b113c1d0fbc33f2edd04a4ecc193d7f689260 assets\kokomi\blockstates\fu_xuan_fence
 edca191290028c83c1378264075cad982db4dd57 assets\kokomi\models\block\fu_xuan_pressure_plate.json
 54413426b0256850824ea5562fa17ebec9ac3540 assets\kokomi\models\block\fu_xuan_stairs_inner.json
 1508f162a8e1e4188665f51cb71b9f4da209fb79 assets\kokomi\models\item\fu_xuan_wall.json
-953ac5f9b6960ad680de09facacdb26e0b1c5294 assets\kokomi\blockstates\end_fu_xuan_ore.json
 cbc1e095faf79a5d68b6f8804eea44f9d68c1b50 assets\kokomi\blockstates\fu_xuan_ore.json
+953ac5f9b6960ad680de09facacdb26e0b1c5294 assets\kokomi\blockstates\end_fu_xuan_ore.json
 9e738c42765daffac531ecdbf2579820c2c0f30d assets\kokomi\models\block\fu_xuan_trapdoor_open.json
 ccd9d154338e22ae732c5720be695b2c1c168868 assets\kokomi\models\block\fu_xuan_fence_inventory.json
 de45951f4717c3642c03f93acefcec551180e88b assets\kokomi\models\block\fu_xuan_fence_gate_wall_open.json

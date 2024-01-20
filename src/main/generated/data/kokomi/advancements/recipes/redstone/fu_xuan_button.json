@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fu_xuan_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kokomi:fu_xuan_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kokomi:fu_xuan_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fu_xuan_stone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kokomi:fu_xuan_button"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,8 +1,8 @@
-// 1.20.1	2024-01-20T20:12:55.7226566	kokomi/Tags for minecraft:block
+// 1.20.1	2024-01-20T21:36:38.4896815	kokomi/Tags for minecraft:block
 030fb17306fee9d08da2f8548344d3cb3a470339 data\minecraft\tags\blocks\walls.json
 3c3d80e063424c57496fa6d6efd2eea47c70da06 data\minecraft\tags\blocks\fences.json
 00bffae670b860367299399a062c9e0bb4a10260 data\minecraft\tags\blocks\mineable\pickaxe.json
-5e28caffc6d27b8be3b59773015abde2d88350f8 data\kokomi\tags\blocks\metal_detector_blocks.json
-a0c4917164de8ec76264c4c3650da818db612f31 data\minecraft\tags\blocks\wool.json
 00bffae670b860367299399a062c9e0bb4a10260 data\minecraft\tags\blocks\needs_diamond_tool.json
+a0c4917164de8ec76264c4c3650da818db612f31 data\minecraft\tags\blocks\wool.json
+5e28caffc6d27b8be3b59773015abde2d88350f8 data\kokomi\tags\blocks\metal_detector_blocks.json
 ab8631e57db335a212a9d8d99d2a9754cdd7c4bc data\minecraft\tags\blocks\fence_gates.json

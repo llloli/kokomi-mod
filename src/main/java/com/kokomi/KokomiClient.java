@@ -10,6 +10,5 @@ public class KokomiClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FU_XUAN_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FU_XUAN_TRAPDOOR, RenderLayer.getCutout());
-        Kokomi.LOGGER.debug(Kokomi.MOD_ID+"yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
     }
 }

@@ -3,15 +3,15 @@
 	"id": "kokomi",
 	"version": "${version}",
 	"name": "kokomi",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "本公主开发的第一个mod~",
 	"authors": [
-		"Me!"
+		"奈奈白花"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://lit.link/baihua",
+		"sources": "https://github.com/llloli/kokomi-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/kokomi/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,13 +20,16 @@
 		],
 		"fabric-datagen": [
 			"com.kokomi.KokomiDataGenerator"
+		],
+		"client": [
+			"com.kokomi.KokomiClient"
 		]
 	},
 	"mixins": [
 		"kokomi.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
+		"fabricloader": ">=0.15.1",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
