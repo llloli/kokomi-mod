@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "kokomi:block/fu_xuan_block"
+  }
+}

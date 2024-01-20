@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "kokomi:block/fu_xuan_pressure_plate"
+    },
+    "powered=true": {
+      "model": "kokomi:block/fu_xuan_pressure_plate_down"
+    }
+  }
+}

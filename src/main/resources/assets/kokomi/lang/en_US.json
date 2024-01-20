@@ -5,7 +5,7 @@
   "item.kokomi.fu_xuan_stone": "Fu Xuan Stone",
   "item.kokomi.fu_xuan_sword": "Fu Xuan Sword",
   "item.kokomi.metal_detector": "Metal Detector",
-  "item.kokomi.tomato": "Tomato",
+  "item.kokomi.peach": "Peach",
   "item.kokomi.coal": "Coal",
 
   "block.kokomi.fu_xuan_block": "Fu Xuan Block",
@@ -13,6 +13,15 @@
   "block.kokomi.deepslate_fu_xuan_ore": "Deepslate Fu Xuan Ore",
   "block.kokomi.end_fu_xuan_ore": "End Fu Xuan Ore",
   "block.kokomi.sound_block": "Sound Block",
+  "block.kokomi.fu_xuan_stairs": "Fu Xuan Stairs",
+  "block.kokomi.fu_xuan_slab": "Fu Xuan Slab",
+  "block.kokomi.fu_xuan_button": "Fu Xuan Button",
+  "block.kokomi.fu_xuan_pressure_plate": "Fu Xuan Pressure Plate",
+  "block.kokomi.fu_xuan_fence": "Fu Xuan Fence",
+  "block.kokomi.fu_xuan_fence_gate": "Fu Xuan Fence Gate",
+  "block.kokomi.fu_xuan_wall": "Fu Xuan Wall",
+  "block.kokomi.fu_xuan_door": "Fu Xuan Door",
+  "block.kokomi.fu_xuan_trapdoor": "Fu Xuan Trapdoor",
 
 
   "item.kokomi.metal_detector.message.null": "No Valuables Found!",

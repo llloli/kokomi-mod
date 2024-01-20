@@ -24,8 +24,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
-    public static final Item TOMATO = registerItem("tomato",
-            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item PEACH = registerItem("peach",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PEACH)));
     public static final Item COAL = registerItem("coal",
             new Item(new FabricItemSettings()));
 

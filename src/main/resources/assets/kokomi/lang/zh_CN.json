@@ -1,11 +1,11 @@
 {
-  "itemgroup.kokomi.nanagroup": "小公主专用喵",
+  "itemgroup.kokomi.nanagroup": "更多符玄喵",
 
   "item.kokomi.nana": "娜娜",
   "item.kokomi.fu_xuan_stone": "符玄石",
   "item.kokomi.fu_xuan_sword": "符玄剑",
   "item.kokomi.metal_detector": "矿物探测器",
-  "item.kokomi.tomato": "番茄",
+  "item.kokomi.peach": "桃子",
   "item.kokomi.coal": "煤",
 
   "block.kokomi.fu_xuan_block": "符玄块",
@@ -13,6 +13,15 @@
   "block.kokomi.deepslate_fu_xuan_ore": "深层符玄矿",
   "block.kokomi.end_fu_xuan_ore": "末地符玄矿",
   "block.kokomi.sound_block": "音符",
+  "block.kokomi.fu_xuan_stairs": "符玄楼梯",
+  "block.kokomi.fu_xuan_slab": "符玄台阶",
+  "block.kokomi.fu_xuan_button": "符玄按钮",
+  "block.kokomi.fu_xuan_pressure_plate": "符玄压力板",
+  "block.kokomi.fu_xuan_fence": "符玄栅栏",
+  "block.kokomi.fu_xuan_fence_gate": "符玄栅栏门",
+  "block.kokomi.fu_xuan_wall": "符玄墙",
+  "block.kokomi.fu_xuan_door": "符玄门",
+  "block.kokomi.fu_xuan_trapdoor": "符玄活板门",
 
 
   "item.kokomi.metal_detector.message.null": "该位置不存在！",

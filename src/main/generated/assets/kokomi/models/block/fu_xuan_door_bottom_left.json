@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "kokomi:block/fu_xuan_door_bottom",
+    "top": "kokomi:block/fu_xuan_door_top"
+  }
+}

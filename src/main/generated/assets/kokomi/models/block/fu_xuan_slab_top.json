@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "kokomi:block/fu_xuan_block",
+    "side": "kokomi:block/fu_xuan_block",
+    "top": "kokomi:block/fu_xuan_block"
+  }
+}

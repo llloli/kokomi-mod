@@ -1,6 +1,15 @@
-// 1.20.1	2024-01-20T15:56:50.0380514	kokomi/Block Loot Tables
-f02dce512edc8c608920370236ff60c52499a31b data\kokomi\loot_tables\blocks\fu_xuan_ore.json
-c2a72c5c30a76acb199652109fadb06ad23463d3 data\kokomi\loot_tables\blocks\end_fu_xuan_ore.json
+// 1.20.1	2024-01-20T20:12:55.7246497	kokomi/Block Loot Tables
+d1679a1816bc5296e4ccaa158362e3f376e5c928 data\kokomi\loot_tables\blocks\fu_xuan_fence_gate.json
+e80553cdbaa749f700d90331ebf16a6fcca7a6b4 data\kokomi\loot_tables\blocks\fu_xuan_door.json
+81e3b8e21febf597e9de6833db6c1d576aaae083 data\kokomi\loot_tables\blocks\end_fu_xuan_ore.json
+4f035ae4b985a3eb277f716592f5cbfb10172b98 data\kokomi\loot_tables\blocks\fu_xuan_stairs.json
 977cae68da7cb562cc9c162224fefd5604a86dab data\kokomi\loot_tables\blocks\sound_block.json
+a7da62966699500d7144341cbd2edfe3ba63410b data\kokomi\loot_tables\blocks\fu_xuan_slab.json
+c144f4cd223c85d5ea70866203ed1ee77ff7c3d4 data\kokomi\loot_tables\blocks\fu_xuan_pressure_plate.json
+782f95e80d7e4c3fec87e2b926d092887b0d978a data\kokomi\loot_tables\blocks\fu_xuan_ore.json
+86e53c7d289bde93ad9dbd21b4a753535bfee95f data\kokomi\loot_tables\blocks\fu_xuan_wall.json
+df4b45b2cbbd7baadf402be408e24d932a968c4e data\kokomi\loot_tables\blocks\fu_xuan_trapdoor.json
 8d72a078ed6e228030d074f0390eec0a6f815d77 data\kokomi\loot_tables\blocks\fu_xuan_block.json
-87ce800e8c31f37f3c95851d81d4bb5f1fe98781 data\kokomi\loot_tables\blocks\deepslate_fu_xuan_ore.json
+9b648ffd1cdf134a5d19093fa7428453af77a67b data\kokomi\loot_tables\blocks\deepslate_fu_xuan_ore.json
+55a7780972e6306e5baa70522428e9d6f71b51da data\kokomi\loot_tables\blocks\fu_xuan_fence.json
+5b8e94fc7594758cd423d3dbdc837ce3e9fbedec data\kokomi\loot_tables\blocks\fu_xuan_button.json

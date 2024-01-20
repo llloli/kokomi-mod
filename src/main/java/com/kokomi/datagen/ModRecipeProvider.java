@@ -8,6 +8,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
@@ -52,5 +53,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND),conditionsFromItem(Items.DIAMOND))
                 .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
+
+        createDoorRecipe(ModBlocks.FU_XUAN_DOOR, Ingredient.ofItems(ModItems.FU_XUAN_STONE))
+                .criterion(hasItem(ModItems.FU_XUAN_STONE),conditionsFromItem(ModItems.FU_XUAN_STONE))
+                .offerTo(exporter);
     }
 }

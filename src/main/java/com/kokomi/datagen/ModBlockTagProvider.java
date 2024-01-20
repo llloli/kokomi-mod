@@ -36,8 +36,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOUND_BLOCK);
         //需要钻石级别
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.FU_XUAN_BLOCK)
                 .add(ModBlocks.FU_XUAN_ORE)
                 .add(ModBlocks.END_FU_XUAN_ORE)
                 .add(ModBlocks.DEEPSLATE_FU_XUAN_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.FU_XUAN_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.FU_XUAN_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.FU_XUAN_WALL);
     }
 }

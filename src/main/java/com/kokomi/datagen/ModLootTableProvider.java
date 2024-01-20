@@ -28,13 +28,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FU_XUAN_ORE, fuXuanOreDrops(ModBlocks.FU_XUAN_ORE, ModItems.FU_XUAN_STONE));
         addDrop(ModBlocks.DEEPSLATE_FU_XUAN_ORE, fuXuanOreDrops(ModBlocks.DEEPSLATE_FU_XUAN_ORE, ModItems.FU_XUAN_STONE));
         addDrop(ModBlocks.END_FU_XUAN_ORE, fuXuanOreDrops(ModBlocks.END_FU_XUAN_ORE, ModItems.FU_XUAN_STONE));
+
+        addDrop(ModBlocks.FU_XUAN_STAIRS);
+        addDrop(ModBlocks.FU_XUAN_TRAPDOOR);
+        addDrop(ModBlocks.FU_XUAN_WALL);
+        addDrop(ModBlocks.FU_XUAN_FENCE);
+        addDrop(ModBlocks.FU_XUAN_FENCE_GATE);
+        addDrop(ModBlocks.FU_XUAN_BUTTON);
+        addDrop(ModBlocks.FU_XUAN_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.FU_XUAN_DOOR,doorDrops(ModBlocks.FU_XUAN_DOOR));
+        addDrop(ModBlocks.FU_XUAN_SLAB,slabDrops(ModBlocks.FU_XUAN_SLAB));
+
+
     }
 
     public LootTable.Builder fuXuanOreDrops(Block drop, Item item) {
         return dropsWithSilkTouch(drop, (LootPoolEntry.Builder) this.applyExplosionDecay(drop,
                 ItemEntry.builder(item)
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider
-                                .create(2.0F, 5.0F)))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }

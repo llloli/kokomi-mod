@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kokomi:block/fu_xuan_slab"
+    },
+    "type=double": {
+      "model": "kokomi:block/fu_xuan_block"
+    },
+    "type=top": {
+      "model": "kokomi:block/fu_xuan_slab_top"
+    }
+  }
+}
