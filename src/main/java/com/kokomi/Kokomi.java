@@ -11,21 +11,21 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Kokomi implements ModInitializer {
-    public static final String MOD_ID = "kokomi";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final String MOD_ID = "kokomi";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    @Override
-    public void onInitialize() {
-        //注册物品组
-        ModItemGroup.registerModItemGroup();
-        //注册物品
-        ModItems.registerModItem();
-        //注册方块
-        ModBlocks.registerModBlocks();
-        //注册燃料
-        ModCoalItem.registerCoalItem();
+	@Override
+	public void onInitialize() {
+		//注册物品组
+		ModItemGroup.registerModItemGroup();
+		//注册物品
+		ModItems.registerModItem();
+		//注册方块
+		ModBlocks.registerModBlocks();
+		//注册燃料
+		ModCoalItem.registerCoalItem();
 
 
-        LOGGER.info("Mod is loading...");
-    }
+		LOGGER.info("Mod is loading...");
+	}
 }
