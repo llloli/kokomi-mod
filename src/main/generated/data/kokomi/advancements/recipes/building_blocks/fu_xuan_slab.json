@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fu_xuan_stone": {
+    "has_fu_xuan_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "kokomi:fu_xuan_stone"
+              "kokomi:fu_xuan_block"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_fu_xuan_stone",
+      "has_fu_xuan_block",
       "has_the_recipe"
     ]
   ],

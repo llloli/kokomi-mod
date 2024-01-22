@@ -1,8 +1,14 @@
-// 1.20.1	2024-01-20T21:36:38.4896815	kokomi/Tags for minecraft:block
+// 1.20.1	2024-01-22T17:27:28.5638604	kokomi/Tags for minecraft:block
 030fb17306fee9d08da2f8548344d3cb3a470339 data\minecraft\tags\blocks\walls.json
 3c3d80e063424c57496fa6d6efd2eea47c70da06 data\minecraft\tags\blocks\fences.json
-00bffae670b860367299399a062c9e0bb4a10260 data\minecraft\tags\blocks\mineable\pickaxe.json
-00bffae670b860367299399a062c9e0bb4a10260 data\minecraft\tags\blocks\needs_diamond_tool.json
-a0c4917164de8ec76264c4c3650da818db612f31 data\minecraft\tags\blocks\wool.json
+acb4348f842107c92be1f2714ac56678dfa14a36 data\minecraft\tags\blocks\mineable\pickaxe.json
 5e28caffc6d27b8be3b59773015abde2d88350f8 data\kokomi\tags\blocks\metal_detector_blocks.json
+e057912f42f9974a8d8d3264d54ffb38e0dfa07c data\minecraft\tags\blocks\buttons.json
+ecfff169cefdaf378adc84b5e02b5e547b80e457 data\minecraft\tags\blocks\slabs.json
+4f9958e57e732a055e29104a63ffb0d7591c83ad data\minecraft\tags\blocks\doors.json
+b390ffe06430c255eb71b2ee76d892aa740c8a2d data\minecraft\tags\blocks\stairs.json
+00bffae670b860367299399a062c9e0bb4a10260 data\fabric\tags\blocks\needs_tool_level_4.json
+fd7428002dc6eb93621e9268c69d93e56cbc9d95 data\minecraft\tags\blocks\trapdoors.json
+cb3cfa26e42390c90adfd7d938cbe2a684ef2c1b data\minecraft\tags\blocks\pressure_plates.json
+a0c4917164de8ec76264c4c3650da818db612f31 data\minecraft\tags\blocks\wool.json
 ab8631e57db335a212a9d8d99d2a9754cdd7c4bc data\minecraft\tags\blocks\fence_gates.json

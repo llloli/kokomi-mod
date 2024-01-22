@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
-    "#": {
-      "item": "kokomi:fu_xuan_block"
+    "S": {
+      "item": "kokomi:fu_xuan_stone"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "S",
+    "S"
   ],
   "result": {
     "count": 4,
-    "item": "kokomi:fu_xuan_stairs"
+    "item": "kokomi:fu_xuan_stick"
   },
   "show_notification": true
 }

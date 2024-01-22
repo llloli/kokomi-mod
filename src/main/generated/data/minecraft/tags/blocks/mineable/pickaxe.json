@@ -4,6 +4,14 @@
     "kokomi:fu_xuan_block",
     "kokomi:fu_xuan_ore",
     "kokomi:end_fu_xuan_ore",
-    "kokomi:deepslate_fu_xuan_ore"
+    "kokomi:deepslate_fu_xuan_ore",
+    "kokomi:fu_xuan_button",
+    "kokomi:fu_xuan_door",
+    "kokomi:fu_xuan_trapdoor",
+    "kokomi:fu_xuan_pressure_plate",
+    "kokomi:fu_xuan_stairs",
+    "kokomi:fu_xuan_slab",
+    "kokomi:fu_xuan_fence",
+    "kokomi:fu_xuan_fence_gate"
   ]
 }

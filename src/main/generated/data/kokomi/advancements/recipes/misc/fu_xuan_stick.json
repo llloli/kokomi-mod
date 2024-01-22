@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fu_xuan_block": {
+    "has_fu_xuan_stone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "kokomi:fu_xuan_block"
+              "kokomi:fu_xuan_stone"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "kokomi:fu_xuan_stairs"
+        "recipe": "minecraft:fu_xuan_stick"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_fu_xuan_block",
+      "has_fu_xuan_stone",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "kokomi:fu_xuan_stairs"
+      "minecraft:fu_xuan_stick"
     ]
   },
   "sends_telemetry_event": false

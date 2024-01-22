@@ -40,10 +40,12 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.NANA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FU_XUAN_STICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.PEACH, Models.GENERATED);
         itemModelGenerator.register(ModItems.FU_XUAN_STONE, Models.GENERATED);
         itemModelGenerator.register(ModItems.FU_XUAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FU_XUAN_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
     }
 }

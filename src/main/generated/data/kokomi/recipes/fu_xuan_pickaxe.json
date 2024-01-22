@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "C": {
+      "item": "kokomi:fu_xuan_stick"
+    },
     "S": {
-      "item": "kokomi:fu_xuan_block"
+      "item": "kokomi:fu_xuan_stone"
     }
   },
   "pattern": [
     "SSS",
-    "SSS"
+    " C ",
+    " C "
   ],
   "result": {
-    "count": 6,
-    "item": "kokomi:fu_xuan_wall"
+    "item": "kokomi:fu_xuan_pickaxe"
   },
   "show_notification": true
 }

@@ -2,11 +2,14 @@
   "itemgroup.kokomi.nanagroup": "Mod Item",
 
   "item.kokomi.nana": "nana",
+  "item.kokomi.fu_xuan_stick": "Fu Xuan Stick",
   "item.kokomi.fu_xuan_stone": "Fu Xuan Stone",
   "item.kokomi.fu_xuan_sword": "Fu Xuan Sword",
+  "item.kokomi.fu_xuan_pickaxe": "Fu Xuan Pickaxe",
   "item.kokomi.metal_detector": "Metal Detector",
   "item.kokomi.peach": "Peach",
   "item.kokomi.coal": "Coal",
+  "item.kokomi.ruby_staff": "Ruby Staff",
 
   "block.kokomi.fu_xuan_block": "Fu Xuan Block",
   "block.kokomi.fu_xuan_ore": "Fu Xuan Ore",
