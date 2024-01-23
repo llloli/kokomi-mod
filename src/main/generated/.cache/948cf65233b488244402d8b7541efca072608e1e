@@ -1,7 +1,7 @@
-// 1.20.1	2024-01-23T14:47:43.65313	kokomi/Block Loot Tables
+// 1.20.1	2024-01-23T16:09:51.7540125	kokomi/Block Loot Tables
 d1679a1816bc5296e4ccaa158362e3f376e5c928 data\kokomi\loot_tables\blocks\fu_xuan_fence_gate.json
-e80553cdbaa749f700d90331ebf16a6fcca7a6b4 data\kokomi\loot_tables\blocks\fu_xuan_door.json
 81e3b8e21febf597e9de6833db6c1d576aaae083 data\kokomi\loot_tables\blocks\end_fu_xuan_ore.json
+e80553cdbaa749f700d90331ebf16a6fcca7a6b4 data\kokomi\loot_tables\blocks\fu_xuan_door.json
 4f035ae4b985a3eb277f716592f5cbfb10172b98 data\kokomi\loot_tables\blocks\fu_xuan_stairs.json
 977cae68da7cb562cc9c162224fefd5604a86dab data\kokomi\loot_tables\blocks\sound_block.json
 a7da62966699500d7144341cbd2edfe3ba63410b data\kokomi\loot_tables\blocks\fu_xuan_slab.json

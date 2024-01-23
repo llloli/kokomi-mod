@@ -22,8 +22,8 @@ public class ModPlacedFeatures {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, FU_XUAN_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FU_XUAN_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(4, // 每块矿脉
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(-30))));
+                ModOrePlacement.modifiersWithCount(2, // 每块矿脉
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(30))));
         register(context, END_FU_XUAN_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_FU_XUAN_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
