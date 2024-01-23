@@ -1,0 +1,5 @@
+// 1.20.1	2024-01-23T14:47:43.65313	kokomi/World Gen
+86a1f574177d49ff637b24ca7fc7bb0c31cf2044 data\kokomi\worldgen\configured_feature\fu_xuan_ore.json
+b295de4fca7c8e3b8370b313e18c2e84984e8c3c data\kokomi\worldgen\configured_feature\end_fu_xuan_ore.json
+c8cfaad3927d6c14e24c6a639688ef1b9bcb0800 data\kokomi\worldgen\placed_feature\fu_xuan_ore_placed.json
+1a3898a192b9be693afcbf3c5d421be641c4ed1f data\kokomi\worldgen\placed_feature\end_fu_xuan_ore_placed.json

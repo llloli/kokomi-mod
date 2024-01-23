@@ -4,6 +4,7 @@ import com.kokomi.block.ModBlocks;
 import com.kokomi.item.ModCoalItem;
 import com.kokomi.item.ModItemGroup;
 import com.kokomi.item.ModItems;
+import com.kokomi.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class Kokomi implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Mod is loading...");
 		//注册物品组
 		ModItemGroup.registerModItemGroup();
 		//注册物品
@@ -24,6 +26,6 @@ public class Kokomi implements ModInitializer {
 		//注册燃料
 		ModCoalItem.registerCoalItem();
 
-		LOGGER.info("Mod is loading...");
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

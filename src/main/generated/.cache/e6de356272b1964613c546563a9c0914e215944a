@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-22T17:27:28.5708598	kokomi/Recipes
+// 1.20.1	2024-01-23T14:47:43.6551452	kokomi/Recipes
 a4a0bb9b8f7fad06ffd4b75d8450d8b566f6fd56 data\kokomi\recipes\fu_xuan_slab.json
 b585acb4579d80b81296649472bab04deb6f9c96 data\kokomi\advancements\recipes\misc\fu_xuan_wall.json
 204d60652c3263474be49bbaed1796fa6ae42c6c data\kokomi\recipes\fu_xuan_stairs.json
@@ -25,8 +25,8 @@ c4e69814adc14b1d4f768cf3a8bfece064087113 data\kokomi\advancements\recipes\misc\m
 e8d31f5600dd5821388afb127b85c4d588154767 data\kokomi\advancements\recipes\misc\fu_xuan_stone_from_smelting_deepslate_fu_xuan_ore.json
 fcb340b9ddbecb63c03d6632f3937226091106a0 data\kokomi\recipes\fu_xuan_block.json
 f653d04c215491807655ac13343ea6f33a03d5f7 data\kokomi\advancements\recipes\misc\fu_xuan_stone_from_smelting_fu_xuan_ore.json
-4ad06fa46adf4bbb22521c73e39945428c5fb012 data\kokomi\recipes\fu_xuan_stone_from_blasting_fu_xuan_ore.json
 8a366cc5777e07b7cbc0e3bec8cf1e93c6fbf531 data\kokomi\advancements\recipes\misc\fu_xuan_stone_from_blasting_fu_xuan_ore.json
+4ad06fa46adf4bbb22521c73e39945428c5fb012 data\kokomi\recipes\fu_xuan_stone_from_blasting_fu_xuan_ore.json
 0550ecc5924e1678be420279d9198ec8ffa39acf data\kokomi\recipes\fu_xuan_stone_from_blasting_fu_xuan_stone.json
 4516b3fc62cf37c98d0a298e3312e02bedd4846e data\kokomi\advancements\recipes\misc\fu_xuan_stick.json
 0ea98eb728fd69dc792ded7231a47130aa904111 data\kokomi\recipes\fu_xuan_pickaxe.json
